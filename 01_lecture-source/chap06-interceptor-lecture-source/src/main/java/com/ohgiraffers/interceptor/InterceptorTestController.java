@@ -17,7 +17,6 @@ public class InterceptorTestController {
         Thread.sleep(1000);
         // throws를 해줘야 한다. 
 
-
         return "result";
     }
 }

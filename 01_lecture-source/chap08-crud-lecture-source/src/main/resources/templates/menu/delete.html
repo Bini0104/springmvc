@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:replace="common/header.html"></div>
+    <form action="/menu/delete" method="post">
+        <label>삭제할 메뉴의 코드 : </label><input type="number" name="code">
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
